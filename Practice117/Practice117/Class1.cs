@@ -14,7 +14,7 @@ namespace Practice117
             int quotient = newData / 2;
             return quotient;
         }
-
+//note here via out parameter no need to return the integer here it is declared as void
         public void Multiply(out int x)
         {
             x = 5 * 100;
